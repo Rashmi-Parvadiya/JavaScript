@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./test.css">
+  </head>
+  <body>
+    <main>
+      <div id="div_float"></div>
+      <h1>S P L I <br> T T E R</h1> 
+      <article class="calc_main">
+        <form name="calc_form" id="calc_form">
+          <section id="calc_amount" class="class_section">
+            <label for="form_bill" class="form_label">Bill:</label>
+            <div class="text_input">
+              <input type="number" name="form_bill" id="formbill" class="input_text" placeholder="0" oninput="calcform(this)" />
+            </div>
+            <div id="form_Tip" class="form_label">
+              <label for="form_People" class="form_label">
+                Number of People:
+              </label>
+              <div class="text_input">
+                <input type="number" name="form_People" id="form_People" class="input_text" placeholder="0" oninput="calcform(this)" />
+              </div>
+              Tip%
+              <span id="form_msg_Tip" class="form_msg"></span>
+              <fieldset class="btn_Tip_main" title="Tip">
+                <input type="button" name="tip" value="5%" class="btn_Tip" onclick="calcform(this)"/>
+                <input type="button" name="tip" value="10%" class="btn_Tip" onclick="calcform(this)"/>
+                <input type="button" name="tip" value="15%" class="btn_Tip" onclick="calcform(this)"/> <br>
+                <input type="button" name="tip" value="20%" class="btn_Tip" onclick="calcform(this)"/>
+                <input type="button" name="tip" value="25%" class="btn_Tip" onclick="calcform(this)"/>
+                <input type="number" name="tip" id="form_custom" class="btn_Tip_custom text_input" placeholder="0%" oninput="calcform(this)"/>
+              </fieldset>
+            </div>
+          </section>
+          <section id="calc_monitor" class="class_section">
+            <div>
+              <div class="monitor_title">
+                Tip Amount:
+              </div>
+              <div id="monitor_Amount" class="monitor_big">
+                <span id="Amount_Result">$0.00</span>
+              </div>
+              <div class="monitor_title">
+                Total:
+              </div>
+              <div id="monitor_Total" class="monitor_big">
+                <span id="Total_Result">$0.00</span>
+              </div>
+            </div>
+            <input type="reset" id="btn_reset" class="btn_reset" onclick="restore()" />
+           </section>
+        </form>
+      </article>
+    </main>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="./task.js"></script>
+  </body>
+</html>

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./bootstrap-5.2.3-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="./bootstrap-5.2.3-dist/js/bootstrap.js">
+    
+</head>
+<style>
+  thead {
+    border: 1px solid #999;
+  }
+  tbody {
+    border: 1px solid #999;
+  }
+ table {
+  border: 1px solid #999;
+  border-collapse: collapse;
+  width: 100%
+}
+td {
+  border: 1px solid #999
+}
+</style>
+<body>
+    <nav class="navbar navbar-expand-sm container-fluid bg-dark opacity-75 navbar-dark">
+        <div class="container-fluid">
+            <img src="./unnamed.jpg" alt="" style="width: 80px;" class="rounded-pill">
+
+        </div>
+        <div class="navbar-txt justify-content-end">
+        <span class="navbar-text" style="color: white;">Vikas Chomal</span><br>
+            <span class="navbar-text" style="color: white;">9347687881</span>
+            <a href="" style="text-decoration: underline; color:white">vikas.chomal@ppsv.ac.in</a>
+        </div>
+      </nav>
+      <br>
+      <button type="button" class="btn btn-dark" id="btn">Add</button>
+
+      <br><br>
+      <div class="container mt-3">
+        <table class="table table-bordered" id="tbl">
+          <thead id="thead">
+            <tr>
+              <th scope="row">Roll No.</th>
+              <th>Student Name</th>
+              <th>English</th>
+              <th>Science</th>
+              <th>Maths</th>
+              <th>Total</th>
+              <th>Percentage</th>
+              <th>Operation</th>
+            </tr>
+          </thead>
+          <tbody id="body">
+          
+          </tbody>
+        </table>
+        <br>
+
+        <table class="table table-bordered" id="new">
+          <tr>
+          <th>Total Students</th>
+          <th>Lowest Total</th>
+          <th>Highest Total</th>
+          <th>Average Percentage</th>
+          </tr>
+          <tbody>
+          <tr>
+            <td id="Total">00</td>
+            <td id="Lowest">00</td>
+            <td id="Highest">00</td>
+            <td id="avg">00</td>
+          </tr>         
+        </tbody>
+        </table>
+
+      </div>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+
+      <script src="./main1.js"></script>
+      </body>
+</html>

@@ -1,0 +1,181 @@
+* {
+    box-sizing: border-box;
+    --sizemonitor: 400px;
+    font-family: "Space Mono", monospace;
+  }
+  body {
+    background-color: rgb(105, 172, 185);
+    font-size: 14px;
+    font-weight: 400;
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 24px;
+    width: 200px;
+    margin: auto;
+    padding: 49px;
+    font-weight: 200;
+  }
+  
+  input[type="number"] {
+    outline: none;
+  }
+  
+  .calc_main {
+    position: relative;
+    background-color: white;
+    border-radius: 20px;
+    width: 840px;
+    overflow: auto;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  div.text_input {
+    padding: 10px 10px 5px 10px;
+    margin: 0 0 20px 0;
+  }
+  
+  .text_input {
+    background-color: white;
+    border-radius: 3px;
+    border-width: 1px;
+    border-style: solid;
+    width: 360px;
+    height: 50px;
+  }
+  
+  .input_text {
+    float: right;
+    border-style: none;
+    background-color: transparent;
+    height: 20px;
+    text-align: right;
+    font-weight: 700;
+    font-size: 20px;
+    color: rgb(21, 75, 75);
+    width: 90%;
+  }
+  
+   .btn_Tip_main {
+    border-style: none;
+    padding: 0 0 20px 0;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  
+  .btn_Tip_custom {
+    text-align: right;
+    padding: 10px;
+    border-style: solid;
+    border-radius: 5px;
+    width: calc(350px - 246px);
+    font-weight: 100;
+    margin: 5px 0;
+    font-size: 26px;
+  }
+
+  .btn_Tip_custom:hover {
+    border-color: rgb(35, 112, 112);
+    border-width: 3px;
+  }
+  
+  .form_msg {
+    float: right;
+    text-align: right;
+  }
+  
+  .class_section {
+    position: relative;
+    width: var(--sizemonitor);
+    padding: 0 20px;
+    margin: 10px;
+  }
+    
+  .monitor_big {
+    position: relative;
+    float: right;
+    top: -60px;
+    font-size: 36px;
+    color: white;
+  }
+  
+  #calc_amount {
+    float: left;
+  }
+  
+  #calc_monitor {
+    background-color:rgb(21, 75, 75);
+    border-radius: 20px;
+    float: right;
+    padding: 40px 20px;
+    height: 325px;
+  }
+  
+  .monitor_title {
+    padding: 20px;
+    color: white;
+    font-weight: 700;
+  }
+  
+  .title_small {
+    font-size: 10px;
+    color: white;
+  }
+
+  .btn_reset {
+    background-color:rgb(107, 175, 175);
+    width: 90%;
+    margin: 20px;
+    padding: 10px;
+    border-style: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .btn_reset:hover {
+    background-color: rgb(153, 201, 202);
+  }
+
+  .btn_Tip_main {
+    width: 100%;
+    border-style: none;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0 0 20px 0;
+  }
+  
+  .btn_Tip {
+    background-color:rgb(35, 112, 112);
+    color: white;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+    width: calc(350px - 246px);
+    font-weight: 700;
+    font-size: 26px;
+  }
+  
+  .btn_Tip:hover {
+    background-color: rgb(103, 182, 182);
+  }
+
+  .btn_Tip:active {
+    background-color: rgb(35, 112, 112);
+  }
+  
+  .btn_Tip_selected {
+    background-color: rgb(29, 110, 110);
+    color: white;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+    width: calc(350px - 246px);
+    font-weight: 700;
+    font-size: 26px;
+    cursor:pointer ;
+  }
+  
+  
